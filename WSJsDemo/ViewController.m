@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "WSOC_JSVC.h"
 @interface ViewController ()
 
 @end
@@ -16,13 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIButton *locationButton = [[UIButton alloc]initWithFrame:CGRectMake(10, 64, 100, 44)];
+    [self.view addSubview:locationButton];
+    locationButton.backgroundColor = [UIColor redColor];
+    [locationButton setTitle:@"location" forState:UIControlStateNormal];
+    [locationButton addTarget:self action:@selector(locationButtonClick) forControlEvents:UIControlEventTouchUpInside];
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)locationButtonClick{
+    WSOC_JSVC *vc = [[WSOC_JSVC alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

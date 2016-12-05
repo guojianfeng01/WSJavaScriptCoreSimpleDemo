@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E47750B1DF10D0C00B219F5 /* WSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E47750A1DF10D0C00B219F5 /* WSPerson.m */; };
+		6E47750D1DF10F3600B219F5 /* jsOCTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 6E47750C1DF10F3600B219F5 /* jsOCTest.html */; };
 		6EE191EC1DEEA7CD00CCB2EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE191EB1DEEA7CD00CCB2EB /* main.m */; };
 		6EE191EF1DEEA7CD00CCB2EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE191EE1DEEA7CD00CCB2EB /* AppDelegate.m */; };
 		6EE191F21DEEA7CD00CCB2EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE191F11DEEA7CD00CCB2EB /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		6EE191FA1DEEA7CD00CCB2EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE191F81DEEA7CD00CCB2EB /* LaunchScreen.storyboard */; };
 		6EE192051DEEA7CD00CCB2EB /* WSJsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE192041DEEA7CD00CCB2EB /* WSJsDemoTests.m */; };
 		6EE192101DEEA7CD00CCB2EB /* WSJsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE1920F1DEEA7CD00CCB2EB /* WSJsDemoUITests.m */; };
+		6EE192231DEEA87A00CCB2EB /* WSOC_JSVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE192221DEEA87A00CCB2EB /* WSOC_JSVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E4775091DF10D0C00B219F5 /* WSPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPerson.h; sourceTree = "<group>"; };
+		6E47750A1DF10D0C00B219F5 /* WSPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPerson.m; sourceTree = "<group>"; };
+		6E47750C1DF10F3600B219F5 /* jsOCTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jsOCTest.html; sourceTree = "<group>"; };
 		6EE191E71DEEA7CD00CCB2EB /* WSJsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSJsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE191EB1DEEA7CD00CCB2EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EE191ED1DEEA7CD00CCB2EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,8 @@
 		6EE1920B1DEEA7CD00CCB2EB /* WSJsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSJsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE1920F1DEEA7CD00CCB2EB /* WSJsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSJsDemoUITests.m; sourceTree = "<group>"; };
 		6EE192111DEEA7CD00CCB2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE192211DEEA87A00CCB2EB /* WSOC_JSVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSOC_JSVC.h; sourceTree = "<group>"; };
+		6EE192221DEEA87A00CCB2EB /* WSOC_JSVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSOC_JSVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				6EE191EE1DEEA7CD00CCB2EB /* AppDelegate.m */,
 				6EE191F01DEEA7CD00CCB2EB /* ViewController.h */,
 				6EE191F11DEEA7CD00CCB2EB /* ViewController.m */,
+				6E47750C1DF10F3600B219F5 /* jsOCTest.html */,
+				6EE192211DEEA87A00CCB2EB /* WSOC_JSVC.h */,
+				6EE192221DEEA87A00CCB2EB /* WSOC_JSVC.m */,
+				6E4775091DF10D0C00B219F5 /* WSPerson.h */,
+				6E47750A1DF10D0C00B219F5 /* WSPerson.m */,
 				6EE191F31DEEA7CD00CCB2EB /* Main.storyboard */,
 				6EE191F61DEEA7CD00CCB2EB /* Assets.xcassets */,
 				6EE191F81DEEA7CD00CCB2EB /* LaunchScreen.storyboard */,
@@ -249,6 +262,7 @@
 				6EE191FA1DEEA7CD00CCB2EB /* LaunchScreen.storyboard in Resources */,
 				6EE191F71DEEA7CD00CCB2EB /* Assets.xcassets in Resources */,
 				6EE191F51DEEA7CD00CCB2EB /* Main.storyboard in Resources */,
+				6E47750D1DF10F3600B219F5 /* jsOCTest.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +289,9 @@
 			files = (
 				6EE191F21DEEA7CD00CCB2EB /* ViewController.m in Sources */,
 				6EE191EF1DEEA7CD00CCB2EB /* AppDelegate.m in Sources */,
+				6E47750B1DF10D0C00B219F5 /* WSPerson.m in Sources */,
 				6EE191EC1DEEA7CD00CCB2EB /* main.m in Sources */,
+				6EE192231DEEA87A00CCB2EB /* WSOC_JSVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +523,7 @@
 				6EE192161DEEA7CD00CCB2EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EE192171DEEA7CD00CCB2EB /* Build configuration list for PBXNativeTarget "WSJsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				6EE192191DEEA7CD00CCB2EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EE1921A1DEEA7CD00CCB2EB /* Build configuration list for PBXNativeTarget "WSJsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				6EE1921C1DEEA7CD00CCB2EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
